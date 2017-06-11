@@ -29,6 +29,6 @@ module.exports = {
         localIdentName: '[path][name]__[local]--[hash:base64:5]',
       },
     },
-  ],
- }
+    ],
+  },
 };
