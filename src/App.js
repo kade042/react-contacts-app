@@ -1,7 +1,6 @@
-
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import ContactsApp from './components/ContactsApp';
+import ContactsAppContainer from './components/ContactsAppContainer';
 
 let contacts = [
   { name: 'Cassio Zen', email: 'cassiozen@gmail.com' },
@@ -12,4 +11,4 @@ let contacts = [
   { name: 'Sebastian Markbage', email: 'sebmarkbage@here.com' },
 ];
 
-render(<ContactsApp contacts={contacts} />, document.getElementById('root'));
+render(<ContactsAppContainer />, document.getElementById('root'));
